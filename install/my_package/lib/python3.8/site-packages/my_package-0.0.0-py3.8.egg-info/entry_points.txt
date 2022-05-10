@@ -1,0 +1,2 @@
+[console_scripts]
+reading_laser = my_package.reading_laser:main

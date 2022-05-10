@@ -1,0 +1,31 @@
+[2.782s] Invoking command in '/home/federico/dev_ws/src/py_pubsub': PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/federico/dev_ws/build/py_pubsub/build install --prefix /home/federico/dev_ws/install/py_pubsub --record /home/federico/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[3.188s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.188s]   warnings.warn(
+[3.188s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.188s]   warnings.warn(
+[4.122s] running egg_info
+[4.223s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[4.302s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[4.541s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[4.701s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[4.790s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[4.918s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.919s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.919s] running build
+[4.919s] running build_py
+[4.920s] copying py_pubsub/subscriber_member_function.py -> /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[4.920s] running install
+[4.920s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.920s]   warnings.warn(
+[4.928s] running install_lib
+[5.028s] copying /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[5.029s] byte-compiling /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[5.030s] running install_data
+[5.051s] running install_egg_info
+[5.155s] removing '/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[5.155s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[5.157s] running install_scripts
+[5.345s] Installing listener script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub
+[5.345s] Installing talker script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub
+[5.346s] writing list of installed files to '/home/federico/dev_ws/build/py_pubsub/install.log'
+[5.386s] Invoked command in '/home/federico/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/federico/dev_ws/build/py_pubsub/build install --prefix /home/federico/dev_ws/install/py_pubsub --record /home/federico/dev_ws/build/py_pubsub/install.log --single-version-externally-managed

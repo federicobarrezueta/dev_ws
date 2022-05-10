@@ -1,0 +1,267 @@
+[1.513s] Invoking command in '/home/federico/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/federico/dev_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/turtlesim
+[1.558s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.559s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.559s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.667s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.682s] -- Found ament_index_cpp: 1.2.0 (/opt/ros/galactic/share/ament_index_cpp/cmake)
+[1.686s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.728s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.131s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.212s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.215s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.259s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.451s] -- Found rclcpp_action: 9.2.0 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[2.586s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[2.601s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[2.670s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.918s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[3.074s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.144s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.144s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[3.174s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.175s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.175s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.269s] -- Configuring done
+[3.438s] -- Generating done
+[3.444s] -- Build files have been written to: /home/federico/dev_ws/build/turtlesim
+[3.468s] Invoked command in '/home/federico/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/federico/dev_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/turtlesim
+[3.475s] Invoking command in '/home/federico/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/turtlesim -- -j12 -l12
+[3.573s] [  1%] Built target turtlesim__cpp
+[3.581s] [ 11%] Built target turtlesim__rosidl_generator_c
+[3.617s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[3.619s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[3.627s] [ 32%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.632s] [ 42%] Built target turtlesim__rosidl_typesupport_c
+[3.633s] [ 52%] Built target turtlesim__rosidl_typesupport_introspection_c
+[3.775s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[3.815s] [ 62%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so[0m
+[3.962s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[3.984s] [ 71%] Built target turtlesim
+[4.025s] [ 72%] Built target turtlesim__py
+[4.026s] [35m[1mScanning dependencies of target turtlesim_node[0m
+[4.036s] [ 73%] [32m[1mLinking CXX executable draw_square[0m
+[4.052s] [ 74%] [32m[1mLinking CXX executable mimic[0m
+[4.066s] [ 75%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[4.101s] [ 76%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__python.so[0m
+[4.159s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[4.269s] [ 85%] Built target turtlesim__python
+[4.360s] [ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.394s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.458s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.637s] [ 89%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[4.651s] [ 90%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[4.664s] [ 91%] Built target turtlesim__rosidl_typesupport_c__pyext
+[5.217s] [ 92%] Built target turtle_teleop_key
+[5.344s] [ 93%] Built target draw_square
+[5.448s] [ 94%] Built target mimic
+[14.392s] [ 95%] [32m[1mLinking CXX executable turtlesim_node[0m
+[16.597s] [100%] Built target turtlesim_node
+[16.609s] Invoked command in '/home/federico/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/turtlesim -- -j12 -l12
+[16.747s] Invoking command in '/home/federico/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/turtlesim
+[16.756s] -- Install configuration: ""
+[16.756s] -- Execute custom install script
+[16.756s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[16.766s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h
+[16.774s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h
+[16.781s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h
+[16.789s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h
+[16.797s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/color.h
+[16.805s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h
+[16.814s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h
+[16.821s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h
+[16.829s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h
+[16.838s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h
+[16.847s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h
+[16.856s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/pose.h
+[16.863s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[16.871s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h
+[16.879s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h
+[16.887s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h
+[16.895s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h
+[16.904s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h
+[16.912s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h
+[16.921s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h
+[16.930s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h
+[16.937s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h
+[16.945s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h
+[16.955s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h
+[16.963s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h
+[16.972s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h
+[16.980s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h
+[16.987s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h
+[16.995s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/kill.h
+[17.003s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.h
+[17.012s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.h
+[17.020s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h
+[17.027s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h
+[17.036s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.sh
+[17.046s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[17.055s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[17.063s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[17.072s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[17.079s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.088s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[17.096s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[17.106s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[17.115s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[17.123s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[17.133s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[17.143s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[17.152s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[17.160s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[17.170s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.177s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[17.185s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[17.194s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[17.202s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[17.212s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[17.220s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[17.233s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[17.241s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[17.251s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[17.261s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.269s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[17.277s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[17.284s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[17.293s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[17.304s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[17.316s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp
+[17.327s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp
+[17.337s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp
+[17.344s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp
+[17.354s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/color.hpp
+[17.362s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp
+[17.371s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp
+[17.379s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp
+[17.386s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp
+[17.394s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp
+[17.402s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp
+[17.412s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/pose.hpp
+[17.419s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp
+[17.427s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp
+[17.436s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp
+[17.444s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp
+[17.452s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp
+[17.460s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp
+[17.468s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp
+[17.476s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp
+[17.483s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp
+[17.491s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[17.501s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[17.509s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[17.517s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp
+[17.527s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp
+[17.534s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp
+[17.542s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/kill.hpp
+[17.551s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp
+[17.559s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp
+[17.569s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp
+[17.576s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp
+[17.584s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[17.593s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[17.601s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[17.610s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[17.618s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[17.625s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[17.635s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[17.644s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[17.652s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[17.660s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[17.667s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py
+[17.676s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py
+[17.683s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py
+[17.693s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py
+[17.701s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py
+[17.709s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py
+[17.718s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py
+[17.727s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py
+[17.735s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py
+[17.743s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py
+[17.752s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py
+[17.760s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py
+[17.769s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[17.777s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[17.785s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[17.794s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/libturtlesim__python.so
+[17.802s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[17.811s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/msg/Color.idl
+[17.819s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.idl
+[17.827s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.idl
+[17.836s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[17.845s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[17.853s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[17.861s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[17.869s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[17.877s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/msg/Color.msg
+[17.886s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.msg
+[17.894s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.srv
+[17.903s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[17.912s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[17.920s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[17.929s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[17.937s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[17.945s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[17.954s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[17.962s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[17.971s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[17.979s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[17.986s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[17.994s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[18.003s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[18.012s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[18.020s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/turtlesim/turtlesim_node
+[18.027s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[18.036s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/turtlesim/draw_square
+[18.045s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/lib/turtlesim/mimic
+[18.053s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[18.062s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[18.070s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[18.078s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[18.086s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[18.094s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/environment/path.sh
+[18.103s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/environment/path.dsv
+[18.111s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/local_setup.bash
+[18.120s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/local_setup.sh
+[18.128s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/local_setup.zsh
+[18.137s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/local_setup.dsv
+[18.145s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/package.dsv
+[18.154s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[18.162s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[18.171s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.179s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[18.187s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[18.197s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.205s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.214s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.222s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[18.230s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[18.239s] -- Symlinking: /home/federico/dev_ws/install/turtlesim/share/turtlesim/package.xml
+[18.248s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[18.249s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[18.250s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[18.251s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[18.252s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[18.278s] Compiling '/home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py'...
+[18.282s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/images
+[18.282s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/images/foxy.png
+[18.282s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/images/ardent.png
+[18.282s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/images/galactic.png
+[18.282s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/images/bouncy.png
+[18.282s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/images/dashing.png
+[18.282s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/images/crystal.png
+[18.282s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/images/eloquent.png
+[18.282s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake
+[18.283s] -- Installing: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake
+[18.283s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[18.283s] -- Installing: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.283s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[18.283s] -- Installing: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[18.283s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake
+[18.284s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[18.284s] -- Installing: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.284s] -- Up-to-date: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[18.284s] -- Installing: /home/federico/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[18.288s] Invoked command in '/home/federico/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/turtlesim

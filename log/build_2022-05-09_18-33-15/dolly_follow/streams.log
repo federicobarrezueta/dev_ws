@@ -1,0 +1,52 @@
+[0.056s] Invoking command in '/home/federico/dev_ws/build/dolly_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly_follow -- -j12 -l12
+[2.148s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.148s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.149s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.149s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[2.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.149s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.149s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.149s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.149s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.149s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.150s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.150s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.150s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.150s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.150s] -- Configured cppcheck include dirs: 
+[2.150s] -- Configured cppcheck exclude dirs and/or files: 
+[2.150s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.150s] -- Configured cpplint exclude dirs and/or files: 
+[2.150s] -- Added test 'lint_cmake' to check CMake code style
+[2.151s] -- Added test 'uncrustify' to check C / C++ code style
+[2.151s] -- Configured uncrustify additional arguments: 
+[2.151s] -- Added test 'xmllint' to check XML markup files
+[2.151s] -- Configuring done
+[2.151s] -- Generating done
+[2.151s] -- Build files have been written to: /home/federico/dev_ws/build/dolly_follow
+[2.151s] [35m[1mScanning dependencies of target dolly_follow[0m
+[2.151s] [ 50%] [32mBuilding CXX object CMakeFiles/dolly_follow.dir/src/dolly_follow.cpp.o[0m
+[13.288s] [100%] [32m[1mLinking CXX executable dolly_follow[0m
+[14.195s] [100%] Built target dolly_follow
+[14.222s] Invoked command in '/home/federico/dev_ws/build/dolly_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly_follow -- -j12 -l12
+[14.286s] Invoking command in '/home/federico/dev_ws/build/dolly_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/dolly_follow
+[14.308s] -- Install configuration: ""
+[14.308s] -- Execute custom install script
+[14.309s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/lib/dolly_follow/dolly_follow
+[14.327s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/ament_index/resource_index/package_run_dependencies/dolly_follow
+[14.345s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/ament_index/resource_index/parent_prefix_path/dolly_follow
+[14.364s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/environment/ament_prefix_path.sh
+[14.384s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/environment/ament_prefix_path.dsv
+[14.402s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/environment/path.sh
+[14.422s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/environment/path.dsv
+[14.441s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/local_setup.bash
+[14.460s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/local_setup.sh
+[14.479s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/local_setup.zsh
+[14.498s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/local_setup.dsv
+[14.516s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/package.dsv
+[14.534s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/ament_index/resource_index/packages/dolly_follow
+[14.553s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/cmake/dolly_followConfig.cmake
+[14.570s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/cmake/dolly_followConfig-version.cmake
+[14.588s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/package.xml
+[14.611s] Invoked command in '/home/federico/dev_ws/build/dolly_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/dolly_follow

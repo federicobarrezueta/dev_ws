@@ -1,0 +1,7 @@
+CMake Warning at CMakeLists.txt:18 (message):
+  Ignition Gazebo 5 or 6 not found, proceeding without that simulator.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/federico/dev_ws/build/dolly_tests

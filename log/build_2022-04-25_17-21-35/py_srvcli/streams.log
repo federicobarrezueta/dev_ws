@@ -1,0 +1,42 @@
+[2.635s] Invoking command in '/home/federico/dev_ws/build/py_srvcli': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/py_srvcli --uninstall --editable --build-directory /home/federico/dev_ws/build/py_srvcli/build
+[3.350s] running develop
+[3.350s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.351s]   warnings.warn(
+[3.475s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.475s]   warnings.warn(
+[3.651s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[3.651s]   warnings.warn(
+[3.651s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[3.651s]   warnings.warn(
+[3.737s] Removing /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py-srvcli.egg-link (link to .)
+[3.790s] Invoked command in '/home/federico/dev_ws/build/py_srvcli' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/py_srvcli --uninstall --editable --build-directory /home/federico/dev_ws/build/py_srvcli/build
+[3.792s] Invoking command in '/home/federico/dev_ws/src/py_srvcli': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/federico/dev_ws/build/py_srvcli/build install --prefix /home/federico/dev_ws/install/py_srvcli --record /home/federico/dev_ws/build/py_srvcli/install.log --single-version-externally-managed
+[4.722s] running egg_info
+[4.777s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[4.820s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[4.949s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[5.035s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[5.078s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[5.154s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[5.155s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[5.155s] running build
+[5.155s] running build_py
+[5.156s] running install
+[5.156s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.156s]   warnings.warn(
+[5.161s] running install_lib
+[5.218s] creating /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[5.218s] copying /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[5.218s] copying /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[5.218s] copying /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[5.219s] byte-compiling /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc
+[5.219s] byte-compiling /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc
+[5.219s] byte-compiling /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc
+[5.219s] running install_data
+[5.232s] running install_egg_info
+[5.295s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[5.297s] running install_scripts
+[5.417s] Installing client script to /home/federico/dev_ws/install/py_srvcli/lib/py_srvcli
+[5.417s] Installing service script to /home/federico/dev_ws/install/py_srvcli/lib/py_srvcli
+[5.417s] writing list of installed files to '/home/federico/dev_ws/build/py_srvcli/install.log'
+[5.452s] Invoked command in '/home/federico/dev_ws/src/py_srvcli' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/federico/dev_ws/build/py_srvcli/build install --prefix /home/federico/dev_ws/install/py_srvcli --record /home/federico/dev_ws/build/py_srvcli/install.log --single-version-externally-managed

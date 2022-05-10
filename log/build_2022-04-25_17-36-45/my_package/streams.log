@@ -1,0 +1,34 @@
+[3.203s] Invoking command in '/home/federico/dev_ws/build/my_package': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/my_package --uninstall --editable --build-directory /home/federico/dev_ws/build/my_package/build
+[4.081s] running develop
+[4.082s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.082s]   warnings.warn(
+[4.201s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.202s]   warnings.warn(
+[4.383s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[4.383s]   warnings.warn(
+[4.383s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[4.383s]   warnings.warn(
+[4.507s] Invoked command in '/home/federico/dev_ws/build/my_package' returned '0': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/my_package --uninstall --editable --build-directory /home/federico/dev_ws/build/my_package/build
+[4.509s] Invoking command in '/home/federico/dev_ws/src/my_package': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/federico/dev_ws/build/my_package/build install --prefix /home/federico/dev_ws/install/my_package --record /home/federico/dev_ws/build/my_package/install.log --single-version-externally-managed
+[5.260s] running egg_info
+[5.321s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[5.391s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[5.528s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[5.621s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[5.709s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[5.849s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[5.851s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[5.851s] running build
+[5.851s] running build_py
+[5.851s] running install
+[5.851s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.852s]   warnings.warn(
+[5.859s] running install_lib
+[5.916s] running install_data
+[5.927s] running install_egg_info
+[5.984s] removing '/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)
+[5.984s] Copying ../../build/my_package/my_package.egg-info to /home/federico/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[5.985s] running install_scripts
+[6.091s] Installing my_node script to /home/federico/dev_ws/install/my_package/lib/my_package
+[6.091s] writing list of installed files to '/home/federico/dev_ws/build/my_package/install.log'
+[6.121s] Invoked command in '/home/federico/dev_ws/src/my_package' returned '0': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/federico/dev_ws/build/my_package/build install --prefix /home/federico/dev_ws/install/my_package --record /home/federico/dev_ws/build/my_package/install.log --single-version-externally-managed

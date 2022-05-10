@@ -1,0 +1,16 @@
+/home/federico/dev_ws/install/my_package/share/my_package//launch/dolly.launch.py
+/home/federico/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+/home/federico/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+/home/federico/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+/home/federico/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+/home/federico/dev_ws/install/my_package/share/my_package/environment/path.sh
+/home/federico/dev_ws/install/my_package/share/my_package/environment/path.dsv
+/home/federico/dev_ws/install/my_package/share/my_package/local_setup.bash
+/home/federico/dev_ws/install/my_package/share/my_package/local_setup.sh
+/home/federico/dev_ws/install/my_package/share/my_package/local_setup.zsh
+/home/federico/dev_ws/install/my_package/share/my_package/local_setup.dsv
+/home/federico/dev_ws/install/my_package/share/my_package/package.dsv
+/home/federico/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+/home/federico/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+/home/federico/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+/home/federico/dev_ws/install/my_package/share/my_package/package.xml

@@ -1,0 +1,36 @@
+[2.245s] Invoking command in '/home/federico/dev_ws/build/my_package': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/my_package --uninstall --editable --build-directory /home/federico/dev_ws/build/my_package/build
+[3.232s] running develop
+[3.233s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.233s]   warnings.warn(
+[3.398s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.399s]   warnings.warn(
+[3.640s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[3.640s]   warnings.warn(
+[3.641s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[3.642s]   warnings.warn(
+[3.808s] Invoked command in '/home/federico/dev_ws/build/my_package' returned '0': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/my_package --uninstall --editable --build-directory /home/federico/dev_ws/build/my_package/build
+[3.809s] Invoking command in '/home/federico/dev_ws/src/my_package': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/federico/dev_ws/build/my_package/build install --prefix /home/federico/dev_ws/install/my_package --record /home/federico/dev_ws/build/my_package/install.log --single-version-externally-managed
+[4.864s] running egg_info
+[4.940s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[5.003s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[5.186s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[5.310s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[5.374s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[5.477s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[5.477s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[5.478s] running build
+[5.478s] running build_py
+[5.478s] running install
+[5.479s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.480s]   warnings.warn(
+[5.488s] running install_lib
+[5.563s] running install_data
+[5.582s] copying launch/reading_laser.launch.py -> /home/federico/dev_ws/install/my_package/share/my_package
+[5.582s] copying launch/dolly.launch.py -> /home/federico/dev_ws/install/my_package/share/my_package
+[5.582s] running install_egg_info
+[5.660s] removing '/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)
+[5.660s] Copying ../../build/my_package/my_package.egg-info to /home/federico/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[5.661s] running install_scripts
+[5.825s] Installing reading_laser script to /home/federico/dev_ws/install/my_package/lib/my_package
+[5.826s] writing list of installed files to '/home/federico/dev_ws/build/my_package/install.log'
+[5.887s] Invoked command in '/home/federico/dev_ws/src/my_package' returned '0': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/federico/dev_ws/build/my_package/build install --prefix /home/federico/dev_ws/install/my_package --record /home/federico/dev_ws/build/my_package/install.log --single-version-externally-managed

@@ -1,0 +1,372 @@
+[0.000000] (-) TimerEvent: {}
+[0.001002] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001068] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001309] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001690] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001726] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001887] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001967] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.018051] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.018541] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/federico/dev_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/more_interfaces'], 'cwd': '/home/federico/dev_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'federico'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1871'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/federico/dev_ws/install/tutorial_interfaces/lib:/home/federico/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/federico'), ('OLDPWD', '/home/federico/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1682'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3517'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/federico/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'federico'), ('JOURNAL_STREAM', '8:46529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'federico'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/federico/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/federico-Predator-PH315-51:@/tmp/.ICE-unix/1908,unix/federico-Predator-PH315-51:/tmp/.ICE-unix/1908'), ('INVOCATION_ID', '0ac64a25a1894b798b7f7e366efdd0d9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:de0a1ca1-36b4-4787-8c73-e2e1559a1e14'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/federico/dev_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic')]), 'shell': False}
+[0.100039] (-) TimerEvent: {}
+[0.108847] (more_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.191971] (more_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.198908] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.200118] (-) TimerEvent: {}
+[0.297243] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.298600] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300238] (-) TimerEvent: {}
+[0.397126] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400332] (-) TimerEvent: {}
+[0.415293] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.415920] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.419617] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500459] (-) TimerEvent: {}
+[0.533435] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.535188] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600596] (-) TimerEvent: {}
+[0.647121] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.665231] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.666037] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.669257] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.700726] (-) TimerEvent: {}
+[0.707802] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.708200] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800860] (-) TimerEvent: {}
+[0.836897] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.843007] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.854328] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.900999] (-) TimerEvent: {}
+[1.000659] (more_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.001069] (-) TimerEvent: {}
+[1.045044] (more_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.101184] (-) TimerEvent: {}
+[1.169445] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201317] (-) TimerEvent: {}
+[1.213658] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.301422] (-) TimerEvent: {}
+[1.323996] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.328676] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.361304] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.362742] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.401555] (-) TimerEvent: {}
+[1.465013] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.465377] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.501693] (-) TimerEvent: {}
+[1.569851] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.570258] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.601809] (-) TimerEvent: {}
+[1.659251] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.659622] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.701927] (-) TimerEvent: {}
+[1.759390] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.761046] (more_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.802059] (-) TimerEvent: {}
+[1.902365] (-) TimerEvent: {}
+[2.002716] (-) TimerEvent: {}
+[2.029072] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.102843] (-) TimerEvent: {}
+[2.203173] (-) TimerEvent: {}
+[2.216734] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[2.303278] (-) TimerEvent: {}
+[2.377945] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.395647] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.403420] (-) TimerEvent: {}
+[2.435109] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.437593] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[2.480050] (more_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.480459] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.480655] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.480852] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.503516] (-) TimerEvent: {}
+[2.514801] (more_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.603648] (-) TimerEvent: {}
+[2.703936] (-) TimerEvent: {}
+[2.804281] (-) TimerEvent: {}
+[2.904650] (-) TimerEvent: {}
+[2.948640] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[2.982649] (more_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.984345] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.985680] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.985855] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.987075] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.987278] (more_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.988249] (more_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.989849] (more_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.990038] (more_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.990712] (more_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.999200] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.004733] (-) TimerEvent: {}
+[3.050764] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.055468] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/federico/dev_ws/build/more_interfaces\n'}
+[3.066464] (more_interfaces) CommandEnded: {'returncode': 0}
+[3.067538] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[3.068651] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/federico/dev_ws/build/more_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/federico/dev_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'federico'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1871'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/federico/dev_ws/install/tutorial_interfaces/lib:/home/federico/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/federico'), ('OLDPWD', '/home/federico/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1682'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3517'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/federico/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'federico'), ('JOURNAL_STREAM', '8:46529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'federico'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/federico/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/federico-Predator-PH315-51:@/tmp/.ICE-unix/1908,unix/federico-Predator-PH315-51:/tmp/.ICE-unix/1908'), ('INVOCATION_ID', '0ac64a25a1894b798b7f7e366efdd0d9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:de0a1ca1-36b4-4787-8c73-e2e1559a1e14'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/federico/dev_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic')]), 'shell': False}
+[3.104914] (-) TimerEvent: {}
+[3.131878] (more_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.132297] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__cpp\x1b[0m\n'}
+[3.147246] (more_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.205031] (-) TimerEvent: {}
+[3.305385] (-) TimerEvent: {}
+[3.405741] (-) TimerEvent: {}
+[3.504219] (more_interfaces) StdoutLine: {'line': b'[  6%] Built target more_interfaces__cpp\n'}
+[3.505866] (-) TimerEvent: {}
+[3.523601] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.526419] (more_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.526735] (more_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.526921] (more_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.547803] (more_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[3.605978] (-) TimerEvent: {}
+[3.622113] (more_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.672463] (more_interfaces) StdoutLine: {'line': b'[ 21%] Built target more_interfaces__rosidl_generator_c\n'}
+[3.687577] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.687912] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.706092] (-) TimerEvent: {}
+[3.806521] (-) TimerEvent: {}
+[3.847851] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.868053] (more_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[3.896344] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.897510] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.906639] (-) TimerEvent: {}
+[3.915962] (more_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o\x1b[0m\n'}
+[3.922449] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o\x1b[0m\n'}
+[4.006809] (-) TimerEvent: {}
+[4.037819] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[4.055070] (more_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[4.056192] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.075914] (more_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[4.101227] (more_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.106928] (-) TimerEvent: {}
+[4.125232] (more_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.171213] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.172635] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[4.207065] (-) TimerEvent: {}
+[4.307415] (-) TimerEvent: {}
+[4.322245] (more_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.364910] (more_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.384192] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[4.407568] (-) TimerEvent: {}
+[4.461312] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.507686] (-) TimerEvent: {}
+[4.603418] (more_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.607806] (-) TimerEvent: {}
+[4.708233] (-) TimerEvent: {}
+[4.728708] (more_interfaces) StdoutLine: {'line': b'[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.743428] (more_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.808330] (-) TimerEvent: {}
+[4.908657] (-) TimerEvent: {}
+[5.008978] (-) TimerEvent: {}
+[5.071727] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.091813] (more_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[5.109120] (-) TimerEvent: {}
+[5.209459] (-) TimerEvent: {}
+[5.309764] (-) TimerEvent: {}
+[5.410127] (-) TimerEvent: {}
+[5.510445] (-) TimerEvent: {}
+[5.610793] (-) TimerEvent: {}
+[5.628928] (more_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.710945] (-) TimerEvent: {}
+[5.748950] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.763694] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces\x1b[0m\n'}
+[5.778861] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces\n'}
+[5.793554] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__py\x1b[0m\n'}
+[5.793837] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publish_address_book\x1b[0m\n'}
+[5.808686] (more_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.811057] (-) TimerEvent: {}
+[5.854070] (more_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[5.911198] (-) TimerEvent: {}
+[6.011547] (-) TimerEvent: {}
+[6.111877] (-) TimerEvent: {}
+[6.212210] (-) TimerEvent: {}
+[6.312538] (-) TimerEvent: {}
+[6.410731] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target more_interfaces__py\n'}
+[6.412664] (-) TimerEvent: {}
+[6.425863] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__python\x1b[0m\n'}
+[6.453558] (more_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__python.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o\x1b[0m\n'}
+[6.512777] (-) TimerEvent: {}
+[6.587842] (more_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__python.so\x1b[0m\n'}
+[6.612924] (-) TimerEvent: {}
+[6.645197] (more_interfaces) StdoutLine: {'line': b'[ 78%] Built target more_interfaces__python\n'}
+[6.660237] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.660612] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.660818] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.687590] (more_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.689018] (more_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.691775] (more_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.713042] (-) TimerEvent: {}
+[6.811515] (more_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.813155] (-) TimerEvent: {}
+[6.814601] (more_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.822201] (more_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.880288] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.890148] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.913285] (-) TimerEvent: {}
+[6.931617] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.013404] (-) TimerEvent: {}
+[7.113843] (-) TimerEvent: {}
+[7.214213] (-) TimerEvent: {}
+[7.314556] (-) TimerEvent: {}
+[7.414913] (-) TimerEvent: {}
+[7.515265] (-) TimerEvent: {}
+[7.615604] (-) TimerEvent: {}
+[7.715957] (-) TimerEvent: {}
+[7.816312] (-) TimerEvent: {}
+[7.916627] (-) TimerEvent: {}
+[8.017020] (-) TimerEvent: {}
+[8.117378] (-) TimerEvent: {}
+[8.217723] (-) TimerEvent: {}
+[8.318076] (-) TimerEvent: {}
+[8.418406] (-) TimerEvent: {}
+[8.518749] (-) TimerEvent: {}
+[8.619103] (-) TimerEvent: {}
+[8.719443] (-) TimerEvent: {}
+[8.819797] (-) TimerEvent: {}
+[8.920164] (-) TimerEvent: {}
+[9.020520] (-) TimerEvent: {}
+[9.120871] (-) TimerEvent: {}
+[9.221224] (-) TimerEvent: {}
+[9.321536] (-) TimerEvent: {}
+[9.421884] (-) TimerEvent: {}
+[9.522265] (-) TimerEvent: {}
+[9.622631] (-) TimerEvent: {}
+[9.722990] (-) TimerEvent: {}
+[9.823367] (-) TimerEvent: {}
+[9.923702] (-) TimerEvent: {}
+[10.024048] (-) TimerEvent: {}
+[10.124397] (-) TimerEvent: {}
+[10.224788] (-) TimerEvent: {}
+[10.325139] (-) TimerEvent: {}
+[10.425565] (-) TimerEvent: {}
+[10.525891] (-) TimerEvent: {}
+[10.626232] (-) TimerEvent: {}
+[10.726562] (-) TimerEvent: {}
+[10.826911] (-) TimerEvent: {}
+[10.927223] (-) TimerEvent: {}
+[11.027576] (-) TimerEvent: {}
+[11.127923] (-) TimerEvent: {}
+[11.228237] (-) TimerEvent: {}
+[11.328568] (-) TimerEvent: {}
+[11.428947] (-) TimerEvent: {}
+[11.447097] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_address_book\x1b[0m\n'}
+[11.529089] (-) TimerEvent: {}
+[11.629433] (-) TimerEvent: {}
+[11.724796] (more_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[11.729571] (-) TimerEvent: {}
+[11.741704] (more_interfaces) CommandEnded: {'returncode': 0}
+[11.816146] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[11.829787] (-) TimerEvent: {}
+[11.834423] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/federico/dev_ws/build/more_interfaces'], 'cwd': '/home/federico/dev_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'federico'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1871'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/federico/dev_ws/install/tutorial_interfaces/lib:/home/federico/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/federico'), ('OLDPWD', '/home/federico/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1682'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3517'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/federico/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'federico'), ('JOURNAL_STREAM', '8:46529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'federico'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/federico/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/federico-Predator-PH315-51:@/tmp/.ICE-unix/1908,unix/federico-Predator-PH315-51:/tmp/.ICE-unix/1908'), ('INVOCATION_ID', '0ac64a25a1894b798b7f7e366efdd0d9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:de0a1ca1-36b4-4787-8c73-e2e1559a1e14'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/federico/dev_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic')]), 'shell': False}
+[11.847492] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.847885] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[11.849355] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""\n'}
+[11.849633] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[11.849875] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[11.850068] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[11.850252] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/address_book.h\n'}
+[11.850439] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.850579] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[11.850709] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h\n'}
+[11.850817] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[11.850942] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h\n'}
+[11.851050] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c\n'}
+[11.851186] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[11.851295] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[11.851445] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[11.851910] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.852057] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[11.852243] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[11.852371] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[11.852476] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[11.852609] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.852716] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.853124] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.853272] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[11.853463] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[11.853596] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.853702] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[11.853807] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps\n'}
+[11.854052] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.854353] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.855044] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.855314] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[11.855591] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[11.855730] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.855918] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[11.856036] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[11.856146] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[11.856342] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.856567] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.856782] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[11.857199] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.857435] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[11.857634] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[11.857825] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/address_book.hpp\n'}
+[11.857996] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[11.858225] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[11.858394] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[11.858577] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[11.858757] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[11.858922] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[11.859080] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[11.859242] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.859433] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[11.859613] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.859777] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.859939] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.860143] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.860330] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[11.860547] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[11.860730] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py\n'}
+[11.909922] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py'...\n"}
+[11.915711] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg\n'}
+[11.916039] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py\n'}
+[11.916256] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py\n'}
+[11.916426] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[11.916605] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.917221] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.917557] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.918445] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.918817] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.919442] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.919731] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__python.so\n'}
+[11.920092] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/more_interfaces/lib/libmore_interfaces__python.so" to ""\n'}
+[11.920343] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[11.920569] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[11.920777] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[11.921039] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[11.921329] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[11.921557] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.921802] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[11.921998] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[11.922183] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[11.922356] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[11.922525] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[11.922682] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[11.922856] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[11.923106] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[11.923395] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.923617] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.923898] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.924121] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.924389] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.924597] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.924863] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.925161] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.925363] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.925653] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.925863] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.926066] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.926294] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.926485] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.926699] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.926885] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.927080] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.927274] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.927490] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[11.927651] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[11.927815] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[11.929927] (-) TimerEvent: {}
+[11.931069] (more_interfaces) CommandEnded: {'returncode': 0}
+[12.031083] (-) TimerEvent: {}
+[12.045313] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[12.046510] (-) EventReactorShutdown: {}

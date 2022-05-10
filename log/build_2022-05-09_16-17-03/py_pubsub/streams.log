@@ -1,0 +1,43 @@
+[2.329s] Invoking command in '/home/federico/dev_ws/build/py_pubsub': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/py_pubsub --uninstall --editable --build-directory /home/federico/dev_ws/build/py_pubsub/build
+[2.558s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.558s]   warnings.warn(
+[2.558s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.558s]   warnings.warn(
+[3.028s] running develop
+[3.028s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.028s]   warnings.warn(
+[3.148s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.148s]   warnings.warn(
+[3.322s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[3.322s]   warnings.warn(
+[3.322s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[3.322s]   warnings.warn(
+[3.441s] Invoked command in '/home/federico/dev_ws/build/py_pubsub' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/py_pubsub --uninstall --editable --build-directory /home/federico/dev_ws/build/py_pubsub/build
+[3.444s] Invoking command in '/home/federico/dev_ws/src/py_pubsub': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/federico/dev_ws/build/py_pubsub/build install --prefix /home/federico/dev_ws/install/py_pubsub --record /home/federico/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[3.674s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.675s]   warnings.warn(
+[3.675s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.675s]   warnings.warn(
+[4.195s] running egg_info
+[4.249s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[4.292s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[4.418s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[4.502s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[4.550s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[4.619s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.620s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.620s] running build
+[4.620s] running build_py
+[4.621s] running install
+[4.621s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.621s]   warnings.warn(
+[4.626s] running install_lib
+[4.679s] running install_data
+[4.691s] running install_egg_info
+[4.745s] removing '/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[4.746s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[4.747s] running install_scripts
+[4.848s] Installing listener script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub
+[4.848s] Installing talker script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub
+[4.848s] writing list of installed files to '/home/federico/dev_ws/build/py_pubsub/install.log'
+[4.875s] Invoked command in '/home/federico/dev_ws/src/py_pubsub' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/federico/dev_ws/build/py_pubsub/build install --prefix /home/federico/dev_ws/install/py_pubsub --record /home/federico/dev_ws/build/py_pubsub/install.log --single-version-externally-managed

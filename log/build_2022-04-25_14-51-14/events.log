@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (-) JobUnselected: {'identifier': 'dolly'}
+[0.000531] (-) JobUnselected: {'identifier': 'dolly_follow'}
+[0.000676] (-) JobUnselected: {'identifier': 'dolly_gazebo'}
+[0.000771] (-) JobUnselected: {'identifier': 'dolly_ignition'}
+[0.000831] (-) JobUnselected: {'identifier': 'dolly_tests'}
+[0.000893] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000926] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000942] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000956] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000969] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.000984] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000999] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001013] (-) EventReactorShutdown: {}

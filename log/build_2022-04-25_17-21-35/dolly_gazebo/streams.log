@@ -1,0 +1,140 @@
+[0.029s] Invoking command in '/home/federico/dev_ws/build/dolly_gazebo': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake /home/federico/dev_ws/src/dolly/dolly_gazebo -DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/dolly_gazebo
+[0.118s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.177s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.181s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.192s] -- Searching for dependencies of ignition-math6
+[0.195s] -- Looking for OGRE...
+[0.203s] -- Found Ogre Ghadamon (1.9.0)
+[0.205s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.218s] -- Looking for OGRE_Paging...
+[0.219s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.219s] -- Looking for OGRE_Terrain...
+[0.219s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.220s] -- Looking for OGRE_Property...
+[0.222s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.222s] -- Looking for OGRE_RTShaderSystem...
+[0.222s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.222s] -- Looking for OGRE_Volume...
+[0.223s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.223s] -- Looking for OGRE_Overlay...
+[0.223s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.482s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.483s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.484s] -- Searching for dependencies of ignition-transport8
+[0.506s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.520s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.526s] -- Checking for module 'libzmq >= 4'
+[0.543s] --   Found libzmq , version 4.3.2
+[0.591s] -- Checking for module 'uuid'
+[0.608s] --   Found uuid, version 2.34.0
+[0.648s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[0.648s] -- Searching for dependencies of ignition-msgs5
+[0.666s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.670s] -- Checking for module 'tinyxml2'
+[0.686s] --   Found tinyxml2, version 6.2.0
+[0.727s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[0.727s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.728s] -- Searching for dependencies of ignition-common3
+[0.728s] -- Looking for dlfcn.h - found
+[0.728s] -- Looking for libdl - found
+[0.739s] -- Searching for <ignition-common3> component [graphics]
+[0.739s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.740s] -- Searching for dependencies of ignition-common3-graphics
+[0.741s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.743s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.744s] -- Searching for dependencies of ignition-fuel_tools4
+[0.775s] -- Checking for module 'jsoncpp'
+[0.791s] --   Found jsoncpp, version 1.7.4
+[0.833s] -- Checking for module 'libzip'
+[0.849s] --   Found libzip, version 1.5.1
+[0.888s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.888s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.889s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[0.891s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.912s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.966s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.974s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.082s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.089s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.090s] -- Added test 'lint_cmake' to check CMake code style
+[1.091s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.096s] -- Added test 'xmllint' to check XML markup files
+[1.099s] -- Configuring done
+[1.106s] -- Generating done
+[1.108s] -- Build files have been written to: /home/federico/dev_ws/build/dolly_gazebo
+[1.127s] Invoked command in '/home/federico/dev_ws/build/dolly_gazebo' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake /home/federico/dev_ws/src/dolly/dolly_gazebo -DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/dolly_gazebo
+[1.129s] Invoking command in '/home/federico/dev_ws/build/dolly_gazebo': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly_gazebo -- -j12 -l12
+[1.791s] Invoked command in '/home/federico/dev_ws/build/dolly_gazebo' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly_gazebo -- -j12 -l12
+[1.816s] Invoking command in '/home/federico/dev_ws/build/dolly_gazebo': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/dolly_gazebo
+[1.824s] -- Install configuration: ""
+[1.825s] -- Execute custom install script
+[1.825s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//launch/dolly.launch.py
+[1.826s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/brown_eye.png
+[1.826s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/casual_female.png
+[1.826s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/eyebrow002.png
+[1.827s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/eyelashes01.png
+[1.827s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/female_casualsuit01_diffuse.png
+[1.827s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/female_casualsuit01_normal.png
+[1.827s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/female_casualsuit02_diffuse.png
+[1.827s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/female_casualsuit02_normal.png
+[1.827s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/ponytail01_diffuse.png
+[1.828s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/shoes05_diffuse.png
+[1.828s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/tongue01_diffuse.png
+[1.828s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/materials/textures/young_lightskinned_female_diffuse.png
+[1.828s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/meshes/casual_female.dae
+[1.828s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/model.config
+[1.828s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/model.sdf
+[1.829s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/thumbnails/1.png
+[1.829s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/thumbnails/2.png
+[1.829s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/thumbnails/3.png
+[1.829s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/thumbnails/4.png
+[1.829s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/casual_female/thumbnails/5.png
+[1.830s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/city_terrain/materials/textures/city_terrain (original).jpg
+[1.830s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/city_terrain/materials/textures/city_terrain.jpg
+[1.830s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/city_terrain/materials/textures/forest.jpg
+[1.830s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/city_terrain/model.config
+[1.830s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/city_terrain/model.sdf
+[1.831s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/dolly/materials/scripts/script.material
+[1.831s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/dolly/materials/textures/sheep.jpg
+[1.831s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/dolly/model.config
+[1.831s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/dolly/model.sdf
+[1.831s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/programs/GLSL/Waves.frag
+[1.832s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/programs/GLSL/Waves.vert
+[1.832s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/scripts/ocean.material
+[1.832s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/License and source soil_sand_0045_01.txt
+[1.832s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/clouds.jpg
+[1.832s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/clouds_bk.jpg
+[1.833s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/clouds_dn.jpg
+[1.833s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/clouds_fr.jpg
+[1.833s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/clouds_lf.jpg
+[1.833s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/clouds_rt.jpg
+[1.833s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/clouds_up.jpg
+[1.834s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/normals.dds
+[1.834s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/materials/textures/soil_sand_0045_01.jpg
+[1.834s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/mesh-simple.dae
+[1.834s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/mesh.blend
+[1.834s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/mesh.dae
+[1.834s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/mesh_below.dae
+[1.835s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/model.config
+[1.835s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//models/ocean/model.sdf
+[1.835s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//rviz/dolly_gazebo.rviz
+[1.836s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//worlds/dolly_city.world
+[1.836s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo//worlds/dolly_empty.world
+[1.836s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/environment/dolly_gazebo.sh
+[1.837s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/environment/dolly_gazebo.dsv
+[1.837s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/ament_index/resource_index/package_run_dependencies/dolly_gazebo
+[1.837s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/ament_index/resource_index/parent_prefix_path/dolly_gazebo
+[1.837s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/environment/ament_prefix_path.sh
+[1.838s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/environment/ament_prefix_path.dsv
+[1.838s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/environment/path.sh
+[1.838s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/environment/path.dsv
+[1.838s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/local_setup.bash
+[1.839s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/local_setup.sh
+[1.839s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/local_setup.zsh
+[1.839s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/local_setup.dsv
+[1.840s] -- Symlinking: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/package.dsv
+[1.850s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/ament_index/resource_index/packages/dolly_gazebo
+[1.850s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/cmake/dolly_gazeboConfig.cmake
+[1.850s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/cmake/dolly_gazeboConfig-version.cmake
+[1.851s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_gazebo/share/dolly_gazebo/package.xml
+[1.855s] Invoked command in '/home/federico/dev_ws/build/dolly_gazebo' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/dolly_gazebo

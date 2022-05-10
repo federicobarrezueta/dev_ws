@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000928] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000992] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001223] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001624] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001824] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/federico/dev_ws/install/tutorial_interfaces')])}
+[0.001890] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.100084] (-) TimerEvent: {}
+[0.200579] (-) TimerEvent: {}
+[0.300905] (-) TimerEvent: {}
+[0.401250] (-) TimerEvent: {}
+[0.501559] (-) TimerEvent: {}
+[0.601868] (-) TimerEvent: {}
+[0.702185] (-) TimerEvent: {}
+[0.802447] (-) TimerEvent: {}
+[0.902727] (-) TimerEvent: {}
+[1.003009] (-) TimerEvent: {}
+[1.103347] (-) TimerEvent: {}
+[1.203732] (-) TimerEvent: {}
+[1.304257] (-) TimerEvent: {}
+[1.404594] (-) TimerEvent: {}
+[1.504945] (-) TimerEvent: {}
+[1.605308] (-) TimerEvent: {}
+[1.705654] (-) TimerEvent: {}
+[1.805998] (-) TimerEvent: {}
+[1.906341] (-) TimerEvent: {}
+[2.006691] (-) TimerEvent: {}
+[2.107064] (-) TimerEvent: {}
+[2.207385] (-) TimerEvent: {}
+[2.307704] (-) TimerEvent: {}
+[2.408022] (-) TimerEvent: {}
+[2.508338] (-) TimerEvent: {}
+[2.608616] (-) TimerEvent: {}
+[2.708900] (-) TimerEvent: {}
+[2.800327] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/federico/dev_ws/build/py_pubsub/build', 'install', '--prefix', '/home/federico/dev_ws/install/py_pubsub', '--record', '/home/federico/dev_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/federico/dev_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'federico', 'LC_TIME': 'pt_PT.UTF-8', 'SSH_AGENT_PID': '1871', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/federico/dev_ws/install/tutorial_interfaces/lib:/home/federico/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/federico', 'OLDPWD': '/home/federico', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_PT.UTF-8', 'MANAGERPID': '1682', 'LC_CTYPE': 'pt_PT.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3517', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/federico/dev_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'federico', 'JOURNAL_STREAM': '8:46529', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'federico', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/federico/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/federico-Predator-PH315-51:@/tmp/.ICE-unix/1908,unix/federico-Predator-PH315-51:/tmp/.ICE-unix/1908', 'INVOCATION_ID': '0ac64a25a1894b798b7f7e366efdd0d9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_PT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_PT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_PT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:de0a1ca1-36b4-4787-8c73-e2e1559a1e14', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_PT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_PT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/federico/dev_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_PT.UTF-8', 'LC_PAPER': 'pt_PT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim'}, 'shell': False}
+[2.809028] (-) TimerEvent: {}
+[2.909430] (-) TimerEvent: {}
+[3.009748] (-) TimerEvent: {}
+[3.110090] (-) TimerEvent: {}
+[3.204144] (py_pubsub) StderrLine: {'line': b"/home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[3.204557] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.204872] (py_pubsub) StderrLine: {'line': b"/home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[3.205063] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.210158] (-) TimerEvent: {}
+[3.310465] (-) TimerEvent: {}
+[3.410796] (-) TimerEvent: {}
+[3.511097] (-) TimerEvent: {}
+[3.611434] (-) TimerEvent: {}
+[3.711768] (-) TimerEvent: {}
+[3.812099] (-) TimerEvent: {}
+[3.912443] (-) TimerEvent: {}
+[4.012779] (-) TimerEvent: {}
+[4.113115] (-) TimerEvent: {}
+[4.162946] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[4.213250] (-) TimerEvent: {}
+[4.269603] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[4.313376] (-) TimerEvent: {}
+[4.351825] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[4.413507] (-) TimerEvent: {}
+[4.513804] (-) TimerEvent: {}
+[4.593333] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[4.613940] (-) TimerEvent: {}
+[4.714255] (-) TimerEvent: {}
+[4.755843] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[4.814389] (-) TimerEvent: {}
+[4.847124] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[4.914497] (-) TimerEvent: {}
+[4.977509] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.979230] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.979519] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[4.979775] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[4.980032] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[4.980156] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[4.980506] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[4.980667] (py_pubsub) StderrLine: {'line': b'/home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.980790] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.988397] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[5.014591] (-) TimerEvent: {}
+[5.094111] (py_pubsub) StdoutLine: {'line': b'copying /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[5.094388] (py_pubsub) StdoutLine: {'line': b'copying /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[5.095025] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc\n'}
+[5.095822] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc\n'}
+[5.096286] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[5.114692] (-) TimerEvent: {}
+[5.117180] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/federico/dev_ws/install/py_pubsub/share/py_pubsub\n'}
+[5.117472] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.214830] (-) TimerEvent: {}
+[5.220451] (py_pubsub) StdoutLine: {'line': b"removing '/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.220800] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[5.222516] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[5.314965] (-) TimerEvent: {}
+[5.412323] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.412668] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.412936] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/federico/dev_ws/build/py_pubsub/install.log'\n"}
+[5.415080] (-) TimerEvent: {}
+[5.454391] (py_pubsub) CommandEnded: {'returncode': 0}
+[5.472838] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[5.473957] (-) EventReactorShutdown: {}

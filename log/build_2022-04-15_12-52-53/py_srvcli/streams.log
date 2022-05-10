@@ -1,0 +1,43 @@
+[2.725s] Invoking command in '/home/federico/dev_ws/src/py_srvcli': PYTHONPATH=/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/federico/dev_ws/build/py_srvcli/build install --prefix /home/federico/dev_ws/install/py_srvcli --record /home/federico/dev_ws/build/py_srvcli/install.log --single-version-externally-managed
+[4.027s] running egg_info
+[4.028s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[4.124s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[4.201s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[4.429s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[4.580s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[4.665s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[4.667s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.785s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.786s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.786s] running build
+[4.787s] running build_py
+[4.787s] creating /home/federico/dev_ws/build/py_srvcli/build
+[4.787s] creating /home/federico/dev_ws/build/py_srvcli/build/lib
+[4.787s] creating /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[4.787s] copying py_srvcli/client_member_function.py -> /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[4.787s] copying py_srvcli/__init__.py -> /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[4.788s] copying py_srvcli/service_member_function.py -> /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli
+[4.788s] running install
+[4.788s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.788s]   warnings.warn(
+[4.795s] running install_lib
+[4.892s] creating /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[4.892s] copying /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[4.892s] copying /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[4.892s] copying /home/federico/dev_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[4.893s] byte-compiling /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc
+[4.894s] byte-compiling /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc
+[4.894s] byte-compiling /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc
+[4.894s] running install_data
+[4.915s] creating /home/federico/dev_ws/install/py_srvcli/share/ament_index
+[4.915s] creating /home/federico/dev_ws/install/py_srvcli/share/ament_index/resource_index
+[4.915s] creating /home/federico/dev_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[4.915s] copying resource/py_srvcli -> /home/federico/dev_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[4.915s] copying package.xml -> /home/federico/dev_ws/install/py_srvcli/share/py_srvcli
+[4.916s] running install_egg_info
+[5.012s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[5.014s] running install_scripts
+[5.194s] Installing client script to /home/federico/dev_ws/install/py_srvcli/lib/py_srvcli
+[5.195s] Installing service script to /home/federico/dev_ws/install/py_srvcli/lib/py_srvcli
+[5.195s] writing list of installed files to '/home/federico/dev_ws/build/py_srvcli/install.log'
+[5.232s] Invoked command in '/home/federico/dev_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/federico/dev_ws/build/py_srvcli/build install --prefix /home/federico/dev_ws/install/py_srvcli --record /home/federico/dev_ws/build/py_srvcli/install.log --single-version-externally-managed

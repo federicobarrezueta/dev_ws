@@ -1,0 +1,141 @@
+[0.043s] Invoking command in '/home/federico/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/federico/dev_ws/src/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/tutorial_interfaces
+[1.572s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.572s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.572s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.572s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.573s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.573s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.573s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.573s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.574s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.574s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.574s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.574s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.574s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.575s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.575s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.575s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.575s] -- Added test 'lint_cmake' to check CMake code style
+[1.576s] -- Added test 'xmllint' to check XML markup files
+[1.576s] -- Configuring done
+[1.576s] -- Generating done
+[1.576s] -- Build files have been written to: /home/federico/dev_ws/build/tutorial_interfaces
+[1.581s] Invoked command in '/home/federico/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/federico/dev_ws/src/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/tutorial_interfaces
+[1.582s] Invoking command in '/home/federico/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/tutorial_interfaces -- -j12 -l12
+[1.613s] [  2%] Built target tutorial_interfaces__cpp
+[1.622s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[1.656s] [ 23%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[1.662s] [ 25%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.664s] [ 35%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[1.682s] [ 46%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.692s] [ 56%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.863s] [ 64%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.892s] [ 66%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.037s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[2.060s] [ 74%] Built target tutorial_interfaces
+[2.084s] [ 76%] Built target tutorial_interfaces__py
+[2.113s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so[0m
+[2.182s] [ 84%] Built target tutorial_interfaces__python
+[2.235s] [ 87%] [32m[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.248s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.249s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.332s] [ 94%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[2.334s] [ 97%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.379s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.395s] Invoked command in '/home/federico/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/tutorial_interfaces -- -j12 -l12
+[2.484s] Invoking command in '/home/federico/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/tutorial_interfaces
+[2.499s] -- Install configuration: ""
+[2.499s] -- Execute custom install script
+[2.500s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[2.519s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h
+[2.532s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h
+[2.546s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h
+[2.558s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h
+[2.573s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.588s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h
+[2.606s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[2.622s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[2.638s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[2.650s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[2.665s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[2.678s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[2.690s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.704s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[2.722s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.738s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[2.754s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.764s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.777s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.792s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[2.804s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.820s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[2.833s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp
+[2.845s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp
+[2.856s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp
+[2.875s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp
+[2.886s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp
+[2.897s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[2.912s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[2.928s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[2.942s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[2.957s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.971s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[2.984s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[2.999s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py
+[3.010s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py
+[3.021s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py
+[3.034s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py
+[3.043s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[3.052s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.064s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.074s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.084s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so
+[3.094s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[3.106s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[3.115s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[3.127s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[3.138s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[3.152s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[3.164s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[3.177s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[3.186s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[3.199s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[3.208s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[3.218s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[3.232s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[3.243s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[3.253s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[3.268s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[3.282s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[3.295s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[3.308s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.323s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.336s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.347s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.359s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.375s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.385s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.398s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[3.412s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[3.429s] -- Symlinking: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[3.450s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[3.451s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[3.451s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[3.451s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.452s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[3.503s] Compiling '/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...
+[3.510s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake
+[3.510s] -- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.510s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.511s] -- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.511s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[3.511s] -- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.512s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake
+[3.512s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.512s] -- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.513s] -- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[3.513s] -- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.520s] Invoked command in '/home/federico/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/tutorial_interfaces

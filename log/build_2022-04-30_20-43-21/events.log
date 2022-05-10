@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (-) JobUnselected: {'identifier': 'dolly'}
+[0.000148] (-) JobUnselected: {'identifier': 'dolly_follow'}
+[0.000169] (-) JobUnselected: {'identifier': 'dolly_gazebo'}
+[0.000185] (-) JobUnselected: {'identifier': 'dolly_tests'}
+[0.000202] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000218] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001113] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001248] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001462] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001605] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001672] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001756] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.100055] (-) TimerEvent: {}
+[0.201624] (-) TimerEvent: {}
+[0.302245] (-) TimerEvent: {}
+[0.402671] (-) TimerEvent: {}
+[0.504104] (-) TimerEvent: {}
+[0.604492] (-) TimerEvent: {}
+[0.705149] (-) TimerEvent: {}
+[0.806376] (-) TimerEvent: {}
+[0.906971] (-) TimerEvent: {}
+[1.007560] (-) TimerEvent: {}
+[1.108185] (-) TimerEvent: {}
+[1.209241] (-) TimerEvent: {}
+[1.309526] (-) TimerEvent: {}
+[1.409849] (-) TimerEvent: {}
+[1.510921] (-) TimerEvent: {}
+[1.611571] (-) TimerEvent: {}
+[1.712237] (-) TimerEvent: {}
+[1.814112] (-) TimerEvent: {}
+[1.915033] (-) TimerEvent: {}
+[2.015798] (-) TimerEvent: {}
+[2.116374] (-) TimerEvent: {}
+[2.217891] (-) TimerEvent: {}
+[2.318891] (-) TimerEvent: {}
+[2.419421] (-) TimerEvent: {}
+[2.520690] (-) TimerEvent: {}
+[2.621012] (-) TimerEvent: {}
+[2.721670] (-) TimerEvent: {}
+[2.823170] (-) TimerEvent: {}
+[2.924304] (-) TimerEvent: {}
+[3.025023] (-) TimerEvent: {}
+[3.127483] (-) TimerEvent: {}
+[3.228781] (-) TimerEvent: {}
+[3.318718] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/federico/dev_ws/install/my_package', '--uninstall', '--editable', '--build-directory', '/home/federico/dev_ws/build/my_package/build'], 'cwd': '/home/federico/dev_ws/build/my_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'federico', 'LC_TIME': 'pt_PT.UTF-8', 'SSH_AGENT_PID': '1935', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/federico', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_PT.UTF-8', 'MANAGERPID': '1744', 'LC_CTYPE': 'pt_PT.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2645', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'federico', 'JOURNAL_STREAM': '8:46851', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'federico', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/galactic/bin:/home/federico/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/federico-Predator-PH315-51:@/tmp/.ICE-unix/1974,unix/federico-Predator-PH315-51:/tmp/.ICE-unix/1974', 'INVOCATION_ID': '376c527adada43e5ab7f9b6c9926a3ee', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_PT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'IGN_FILE_PATH': '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_PT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_PT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:1c982734-8a5e-4b07-92b6-4f7130d664b0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models', 'LC_MEASUREMENT': 'pt_PT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_PT.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/federico/dev_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SDF_PATH': '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '3.3', 'PYTHONPATH': '/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_PT.UTF-8', 'LC_PAPER': 'pt_PT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.329244] (-) TimerEvent: {}
+[3.430916] (-) TimerEvent: {}
+[3.531416] (-) TimerEvent: {}
+[3.631669] (-) TimerEvent: {}
+[3.732196] (-) TimerEvent: {}
+[3.833454] (-) TimerEvent: {}
+[3.933851] (-) TimerEvent: {}
+[4.034375] (-) TimerEvent: {}
+[4.135756] (-) TimerEvent: {}
+[4.236100] (-) TimerEvent: {}
+[4.336508] (-) TimerEvent: {}
+[4.437363] (-) TimerEvent: {}
+[4.537842] (-) TimerEvent: {}
+[4.638160] (-) TimerEvent: {}
+[4.661020] (my_package) StdoutLine: {'line': b'running develop\n'}
+[4.663181] (my_package) StderrLine: {'line': b'/home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.663431] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.738531] (-) TimerEvent: {}
+[4.839773] (-) TimerEvent: {}
+[4.855251] (my_package) StderrLine: {'line': b'/home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.855436] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.939927] (-) TimerEvent: {}
+[5.040529] (-) TimerEvent: {}
+[5.123102] (my_package) StderrLine: {'line': b'/home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[5.124372] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.125204] (my_package) StderrLine: {'line': b'/home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[5.125943] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.140790] (-) TimerEvent: {}
+[5.241339] (-) TimerEvent: {}
+[5.327110] (my_package) CommandEnded: {'returncode': 0}
+[5.331657] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/federico/dev_ws/build/my_package/build', 'install', '--prefix', '/home/federico/dev_ws/install/my_package', '--record', '/home/federico/dev_ws/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/federico/dev_ws/src/my_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'federico', 'LC_TIME': 'pt_PT.UTF-8', 'SSH_AGENT_PID': '1935', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/federico', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_PT.UTF-8', 'MANAGERPID': '1744', 'LC_CTYPE': 'pt_PT.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2645', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'federico', 'JOURNAL_STREAM': '8:46851', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'federico', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/galactic/bin:/home/federico/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/federico-Predator-PH315-51:@/tmp/.ICE-unix/1974,unix/federico-Predator-PH315-51:/tmp/.ICE-unix/1974', 'INVOCATION_ID': '376c527adada43e5ab7f9b6c9926a3ee', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_PT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'IGN_FILE_PATH': '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_PT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_PT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:1c982734-8a5e-4b07-92b6-4f7130d664b0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models', 'LC_MEASUREMENT': 'pt_PT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pt_PT.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/federico/dev_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SDF_PATH': '/opt/ros/galactic/share/dolly_ignition/worlds:/opt/ros/galactic/share/dolly_ignition/models', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '3.3', 'PYTHONPATH': '/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_PT.UTF-8', 'LC_PAPER': 'pt_PT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.341523] (-) TimerEvent: {}
+[5.441981] (-) TimerEvent: {}
+[5.542632] (-) TimerEvent: {}
+[5.643358] (-) TimerEvent: {}
+[5.744552] (-) TimerEvent: {}
+[5.846024] (-) TimerEvent: {}
+[5.946945] (-) TimerEvent: {}
+[6.047480] (-) TimerEvent: {}
+[6.148100] (-) TimerEvent: {}
+[6.249375] (-) TimerEvent: {}
+[6.350341] (-) TimerEvent: {}
+[6.450908] (-) TimerEvent: {}
+[6.552208] (-) TimerEvent: {}
+[6.652590] (-) TimerEvent: {}
+[6.753016] (-) TimerEvent: {}
+[6.854299] (-) TimerEvent: {}
+[6.905059] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[6.954479] (-) TimerEvent: {}
+[6.993022] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[7.054712] (-) TimerEvent: {}
+[7.074473] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[7.155092] (-) TimerEvent: {}
+[7.256344] (-) TimerEvent: {}
+[7.312259] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[7.356558] (-) TimerEvent: {}
+[7.457382] (-) TimerEvent: {}
+[7.471829] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[7.557648] (-) TimerEvent: {}
+[7.560207] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[7.657751] (-) TimerEvent: {}
+[7.673961] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[7.675848] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[7.676398] (my_package) StdoutLine: {'line': b'running build\n'}
+[7.676521] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[7.676699] (my_package) StdoutLine: {'line': b'running install\n'}
+[7.676866] (my_package) StderrLine: {'line': b'/home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.676990] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.683668] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[7.757907] (-) TimerEvent: {}
+[7.772837] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[7.788068] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.858204] (-) TimerEvent: {}
+[7.875669] (my_package) StdoutLine: {'line': b"removing '/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.877138] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/federico/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[7.878725] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[7.958437] (-) TimerEvent: {}
+[8.058839] (-) TimerEvent: {}
+[8.061421] (my_package) StdoutLine: {'line': b'Installing reading_laser script to /home/federico/dev_ws/install/my_package/lib/my_package\n'}
+[8.061695] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/federico/dev_ws/build/my_package/install.log'\n"}
+[8.134615] (my_package) CommandEnded: {'returncode': 0}
+[8.159064] (-) TimerEvent: {}
+[8.168157] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[8.171089] (-) EventReactorShutdown: {}

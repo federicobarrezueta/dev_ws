@@ -1,0 +1,25 @@
+[2.610s] Invoking command in '/home/federico/dev_ws/build/my_package': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/my_package --editable --build-directory /home/federico/dev_ws/build/my_package/build --no-deps install_data --install-dir /home/federico/dev_ws/install/my_package
+[3.649s] running develop
+[3.649s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.649s]   warnings.warn(
+[3.808s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.809s]   warnings.warn(
+[4.066s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[4.066s]   warnings.warn(
+[4.066s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[4.066s]   warnings.warn(
+[4.185s] running egg_info
+[4.280s] writing my_package.egg-info/PKG-INFO
+[4.345s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[4.575s] writing entry points to my_package.egg-info/entry_points.txt
+[4.711s] writing requirements to my_package.egg-info/requires.txt
+[4.782s] writing top-level names to my_package.egg-info/top_level.txt
+[4.884s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[4.885s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[5.014s] running build_ext
+[5.015s] Creating /home/federico/dev_ws/install/my_package/lib/python3.8/site-packages/my-package.egg-link (link to .)
+[5.015s] Installing reading_laser script to /home/federico/dev_ws/install/my_package/lib/my_package
+[5.016s] 
+[5.016s] Installed /home/federico/dev_ws/build/my_package
+[5.016s] running install_data
+[5.096s] Invoked command in '/home/federico/dev_ws/build/my_package' returned '0': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/my_package --editable --build-directory /home/federico/dev_ws/build/my_package/build --no-deps install_data --install-dir /home/federico/dev_ws/install/my_package

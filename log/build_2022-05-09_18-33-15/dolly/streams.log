@@ -1,0 +1,31 @@
+[0.070s] Invoking command in '/home/federico/dev_ws/build/dolly': CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_gazebo:/home/federico/dev_ws/install/dolly_follow:/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/my_package:/home/federico/dev_ws/install/more_interfaces:/home/federico/dev_ws/install/dolly:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly -- -j12 -l12
+[0.260s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.362s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.592s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.607s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.780s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.783s] -- Added test 'lint_cmake' to check CMake code style
+[0.786s] -- Added test 'xmllint' to check XML markup files
+[0.791s] -- Configuring done
+[0.801s] -- Generating done
+[0.805s] -- Build files have been written to: /home/federico/dev_ws/build/dolly
+[0.868s] Invoked command in '/home/federico/dev_ws/build/dolly' returned '0': CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_gazebo:/home/federico/dev_ws/install/dolly_follow:/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/my_package:/home/federico/dev_ws/install/more_interfaces:/home/federico/dev_ws/install/dolly:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly -- -j12 -l12
+[1.068s] Invoking command in '/home/federico/dev_ws/build/dolly': CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_gazebo:/home/federico/dev_ws/install/dolly_follow:/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/my_package:/home/federico/dev_ws/install/more_interfaces:/home/federico/dev_ws/install/dolly:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/dolly
+[1.110s] -- Install configuration: ""
+[1.123s] -- Execute custom install script
+[1.124s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/ament_index/resource_index/package_run_dependencies/dolly
+[1.172s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/ament_index/resource_index/parent_prefix_path/dolly
+[1.210s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/environment/ament_prefix_path.sh
+[1.241s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/environment/ament_prefix_path.dsv
+[1.267s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/environment/path.sh
+[1.288s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/environment/path.dsv
+[1.312s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/local_setup.bash
+[1.351s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/local_setup.sh
+[1.399s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/local_setup.zsh
+[1.427s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/local_setup.dsv
+[1.467s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/package.dsv
+[1.489s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/ament_index/resource_index/packages/dolly
+[1.510s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/cmake/dollyConfig.cmake
+[1.529s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/cmake/dollyConfig-version.cmake
+[1.547s] -- Symlinking: /home/federico/dev_ws/install/dolly/share/dolly/package.xml
+[1.567s] Invoked command in '/home/federico/dev_ws/build/dolly' returned '0': CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_gazebo:/home/federico/dev_ws/install/dolly_follow:/home/federico/dev_ws/install/tutorial_interfaces:/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/my_package:/home/federico/dev_ws/install/more_interfaces:/home/federico/dev_ws/install/dolly:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/dolly

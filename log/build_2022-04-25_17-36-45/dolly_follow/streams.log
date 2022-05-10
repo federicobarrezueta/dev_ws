@@ -1,0 +1,23 @@
+[0.045s] Invoking command in '/home/federico/dev_ws/build/dolly_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly_follow -- -j12 -l12
+[1.387s] [100%] Built target dolly_follow
+[1.398s] Invoked command in '/home/federico/dev_ws/build/dolly_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly_follow -- -j12 -l12
+[1.416s] Invoking command in '/home/federico/dev_ws/build/dolly_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/dolly_follow
+[1.426s] -- Install configuration: ""
+[1.426s] -- Execute custom install script
+[1.427s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/lib/dolly_follow/dolly_follow
+[1.427s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/ament_index/resource_index/package_run_dependencies/dolly_follow
+[1.427s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/ament_index/resource_index/parent_prefix_path/dolly_follow
+[1.427s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/environment/ament_prefix_path.sh
+[1.428s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/environment/ament_prefix_path.dsv
+[1.428s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/environment/path.sh
+[1.428s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/environment/path.dsv
+[1.429s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/local_setup.bash
+[1.429s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/local_setup.sh
+[1.430s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/local_setup.zsh
+[1.430s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/local_setup.dsv
+[1.430s] -- Symlinking: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/package.dsv
+[1.446s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/ament_index/resource_index/packages/dolly_follow
+[1.446s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/cmake/dolly_followConfig.cmake
+[1.446s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/cmake/dolly_followConfig-version.cmake
+[1.446s] -- Up-to-date symlink: /home/federico/dev_ws/install/dolly_follow/share/dolly_follow/package.xml
+[1.454s] Invoked command in '/home/federico/dev_ws/build/dolly_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/federico/dev_ws/build/dolly_follow

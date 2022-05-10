@@ -1,0 +1,21 @@
+[2.791s] Invoking command in '/home/federico/dev_ws/src/py_pubsub': PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/federico/dev_ws/build/py_pubsub/build install --prefix /home/federico/dev_ws/install/py_pubsub --record /home/federico/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[4.123s] running egg_info
+[4.223s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[4.302s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[4.696s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[4.775s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[4.908s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.909s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.909s] running build
+[4.909s] running build_py
+[4.909s] running install
+[4.910s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.910s]   warnings.warn(
+[4.918s] running install_lib
+[5.018s] running install_data
+[5.039s] running install_egg_info
+[5.140s] removing '/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[5.140s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[5.141s] running install_scripts
+[5.327s] writing list of installed files to '/home/federico/dev_ws/build/py_pubsub/install.log'
+[5.365s] Invoked command in '/home/federico/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/federico/dev_ws/build/py_pubsub/build install --prefix /home/federico/dev_ws/install/py_pubsub --record /home/federico/dev_ws/build/py_pubsub/install.log --single-version-externally-managed

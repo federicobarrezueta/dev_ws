@@ -1,0 +1,39 @@
+[3.532s] Invoking command in '/home/federico/dev_ws/build/python_parameters': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/python_parameters --uninstall --editable --build-directory /home/federico/dev_ws/build/python_parameters/build
+[4.402s] running develop
+[4.402s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.402s]   warnings.warn(
+[4.529s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.529s]   warnings.warn(
+[4.721s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[4.721s]   warnings.warn(
+[4.721s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[4.721s]   warnings.warn(
+[4.806s] Removing /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python-parameters.egg-link (link to .)
+[4.850s] Invoked command in '/home/federico/dev_ws/build/python_parameters' returned '0': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/python_parameters --uninstall --editable --build-directory /home/federico/dev_ws/build/python_parameters/build
+[4.853s] Invoking command in '/home/federico/dev_ws/src/python_parameters': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/federico/dev_ws/build/python_parameters/build install --prefix /home/federico/dev_ws/install/python_parameters --record /home/federico/dev_ws/build/python_parameters/install.log --single-version-externally-managed
+[5.606s] running egg_info
+[5.663s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[5.708s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[5.849s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[5.942s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[5.992s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[6.078s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[6.079s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[6.079s] running build
+[6.079s] running build_py
+[6.079s] running install
+[6.080s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.080s]   warnings.warn(
+[6.085s] running install_lib
+[6.147s] creating /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters
+[6.147s] copying /home/federico/dev_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters
+[6.147s] copying /home/federico/dev_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters
+[6.147s] byte-compiling /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters/__init__.py to __init__.cpython-38.pyc
+[6.148s] byte-compiling /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-38.pyc
+[6.148s] running install_data
+[6.162s] running install_egg_info
+[6.235s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info
+[6.236s] running install_scripts
+[6.406s] Installing param_talker script to /home/federico/dev_ws/install/python_parameters/lib/python_parameters
+[6.406s] writing list of installed files to '/home/federico/dev_ws/build/python_parameters/install.log'
+[6.463s] Invoked command in '/home/federico/dev_ws/src/python_parameters' returned '0': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/federico/dev_ws/build/python_parameters/build install --prefix /home/federico/dev_ws/install/python_parameters --record /home/federico/dev_ws/build/python_parameters/install.log --single-version-externally-managed

@@ -1,0 +1,31 @@
+[0.018s] Invoking command in '/home/federico/dev_ws/build/dolly_tests': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake /home/federico/dev_ws/src/dolly/dolly_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/dolly_tests
+[0.075s] -- The C compiler identification is GNU 9.4.0
+[0.134s] -- The CXX compiler identification is GNU 9.4.0
+[0.141s] -- Check for working C compiler: /usr/bin/cc
+[0.207s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.208s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.298s] -- Detecting C compile features
+[0.298s] -- Detecting C compile features - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.388s] -- Detecting CXX compiler ABI info
+[0.468s] -- Detecting CXX compiler ABI info - done
+[0.487s] -- Detecting CXX compile features
+[0.488s] -- Detecting CXX compile features - done
+[0.503s] CMake Warning at CMakeLists.txt:18 (message):
+[0.503s]   Ignition Gazebo 5 or 6 not found, proceeding without that simulator.
+[0.503s] 
+[0.503s] 
+[0.503s] -- Configuring done
+[0.504s] -- Generating done
+[0.504s] CMake Warning:
+[0.504s]   Manually-specified variables were not used by the project:
+[0.504s] 
+[0.504s]     AMENT_CMAKE_SYMLINK_INSTALL
+[0.505s] 
+[0.505s] 
+[0.505s] -- Build files have been written to: /home/federico/dev_ws/build/dolly_tests
+[0.508s] Invoked command in '/home/federico/dev_ws/build/dolly_tests' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake /home/federico/dev_ws/src/dolly/dolly_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/dolly_tests
+[0.508s] Invoking command in '/home/federico/dev_ws/build/dolly_tests': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly_tests -- -j12 -l12
+[0.547s] Invoked command in '/home/federico/dev_ws/build/dolly_tests' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/dolly_follow:/opt/ros/galactic /usr/bin/cmake --build /home/federico/dev_ws/build/dolly_tests -- -j12 -l12

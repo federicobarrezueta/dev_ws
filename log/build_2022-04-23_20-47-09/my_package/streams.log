@@ -1,0 +1,31 @@
+[3.363s] Invoking command in '/home/federico/dev_ws/build/my_package': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/my_package --editable --build-directory /home/federico/dev_ws/build/my_package/build --no-deps install_data --install-dir /home/federico/dev_ws/install/my_package
+[3.806s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.806s]   warnings.warn(
+[3.809s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.809s]   warnings.warn(
+[5.253s] running develop
+[5.253s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.253s]   warnings.warn(
+[5.483s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.483s]   warnings.warn(
+[5.702s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[5.702s]   warnings.warn(
+[5.703s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[5.703s]   warnings.warn(
+[5.821s] running egg_info
+[5.899s] writing my_package.egg-info/PKG-INFO
+[5.963s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[6.149s] writing entry points to my_package.egg-info/entry_points.txt
+[6.270s] writing requirements to my_package.egg-info/requires.txt
+[6.336s] writing top-level names to my_package.egg-info/top_level.txt
+[6.434s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[6.435s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[6.570s] running build_ext
+[6.571s] Creating /home/federico/dev_ws/install/my_package/lib/python3.8/site-packages/my-package.egg-link (link to .)
+[6.571s] Installing listener script to /home/federico/dev_ws/install/my_package/lib/my_package
+[6.571s] Installing talker script to /home/federico/dev_ws/install/my_package/lib/my_package
+[6.571s] 
+[6.572s] Installed /home/federico/dev_ws/build/my_package
+[6.572s] running install_data
+[6.572s] copying package.xml -> /home/federico/dev_ws/install/my_package/share/my_package
+[6.645s] Invoked command in '/home/federico/dev_ws/build/my_package' returned '0': PYTHONPATH=/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/my_package --editable --build-directory /home/federico/dev_ws/build/my_package/build --no-deps install_data --install-dir /home/federico/dev_ws/install/my_package

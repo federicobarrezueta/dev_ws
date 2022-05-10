@@ -1,0 +1,39 @@
+[3.090s] Invoking command in '/home/federico/dev_ws/src/python_parameters': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/federico/dev_ws/build/python_parameters/build install --prefix /home/federico/dev_ws/install/python_parameters --record /home/federico/dev_ws/build/python_parameters/install.log --single-version-externally-managed
+[4.388s] running egg_info
+[4.389s] creating ../../build/python_parameters/python_parameters.egg-info
+[4.486s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[4.564s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[4.799s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[4.955s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[5.035s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[5.042s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[5.170s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[5.171s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[5.171s] running build
+[5.171s] running build_py
+[5.172s] creating /home/federico/dev_ws/build/python_parameters/build
+[5.172s] creating /home/federico/dev_ws/build/python_parameters/build/lib
+[5.172s] creating /home/federico/dev_ws/build/python_parameters/build/lib/python_parameters
+[5.172s] copying python_parameters/__init__.py -> /home/federico/dev_ws/build/python_parameters/build/lib/python_parameters
+[5.172s] copying python_parameters/python_parameters_node.py -> /home/federico/dev_ws/build/python_parameters/build/lib/python_parameters
+[5.172s] running install
+[5.172s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.173s]   warnings.warn(
+[5.180s] running install_lib
+[5.278s] creating /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters
+[5.279s] copying /home/federico/dev_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters
+[5.279s] copying /home/federico/dev_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters
+[5.279s] byte-compiling /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters/__init__.py to __init__.cpython-38.pyc
+[5.279s] byte-compiling /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-38.pyc
+[5.280s] running install_data
+[5.300s] creating /home/federico/dev_ws/install/python_parameters/share/ament_index
+[5.300s] creating /home/federico/dev_ws/install/python_parameters/share/ament_index/resource_index
+[5.300s] creating /home/federico/dev_ws/install/python_parameters/share/ament_index/resource_index/packages
+[5.301s] copying resource/python_parameters -> /home/federico/dev_ws/install/python_parameters/share/ament_index/resource_index/packages
+[5.301s] copying package.xml -> /home/federico/dev_ws/install/python_parameters/share/python_parameters
+[5.301s] running install_egg_info
+[5.400s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info
+[5.401s] running install_scripts
+[5.591s] Installing param_talker script to /home/federico/dev_ws/install/python_parameters/lib/python_parameters
+[5.591s] writing list of installed files to '/home/federico/dev_ws/build/python_parameters/install.log'
+[5.626s] Invoked command in '/home/federico/dev_ws/src/python_parameters' returned '0': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/federico/dev_ws/build/python_parameters/build install --prefix /home/federico/dev_ws/install/python_parameters --record /home/federico/dev_ws/build/python_parameters/install.log --single-version-externally-managed

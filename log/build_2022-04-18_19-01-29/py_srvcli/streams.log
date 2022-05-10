@@ -1,0 +1,24 @@
+[3.028s] Invoking command in '/home/federico/dev_ws/src/py_srvcli': PYTHONPATH=/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/federico/dev_ws/build/py_srvcli/build install --prefix /home/federico/dev_ws/install/py_srvcli --record /home/federico/dev_ws/build/py_srvcli/install.log --single-version-externally-managed
+[4.327s] running egg_info
+[4.425s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[4.502s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[4.731s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[4.883s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[4.968s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[5.092s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[5.094s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[5.094s] running build
+[5.094s] running build_py
+[5.095s] running install
+[5.095s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.096s]   warnings.warn(
+[5.104s] running install_lib
+[5.201s] running install_data
+[5.221s] running install_egg_info
+[5.319s] removing '/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[5.319s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[5.321s] running install_scripts
+[5.501s] Installing client script to /home/federico/dev_ws/install/py_srvcli/lib/py_srvcli
+[5.501s] Installing service script to /home/federico/dev_ws/install/py_srvcli/lib/py_srvcli
+[5.502s] writing list of installed files to '/home/federico/dev_ws/build/py_srvcli/install.log'
+[5.539s] Invoked command in '/home/federico/dev_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/federico/dev_ws/build/py_srvcli/build install --prefix /home/federico/dev_ws/install/py_srvcli --record /home/federico/dev_ws/build/py_srvcli/install.log --single-version-externally-managed

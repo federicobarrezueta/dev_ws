@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.000454] (-) JobUnselected: {'identifier': 'dolly_follow'}
+[0.000485] (-) JobUnselected: {'identifier': 'dolly_gazebo'}
+[0.000504] (-) JobUnselected: {'identifier': 'dolly_ignition'}
+[0.000520] (-) JobUnselected: {'identifier': 'dolly_tests'}
+[0.001339] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001367] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001412] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001451] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001514] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001549] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001566] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001598] (dolly) JobQueued: {'identifier': 'dolly', 'dependencies': OrderedDict([('dolly_follow', '/home/federico/dev_ws/install/dolly_follow'), ('dolly_gazebo', '/home/federico/dev_ws/install/dolly_gazebo'), ('dolly_ignition', '/home/federico/dev_ws/install/dolly_ignition'), ('dolly_tests', '/home/federico/dev_ws/install/dolly_tests')])}
+[0.001642] (dolly) JobStarted: {'identifier': 'dolly'}
+[0.095846] (dolly) JobEnded: {'identifier': 'dolly', 'rc': 1}
+[0.099978] (-) TimerEvent: {}
+[0.106501] (-) EventReactorShutdown: {}

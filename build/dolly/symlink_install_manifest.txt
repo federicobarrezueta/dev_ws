@@ -1,0 +1,15 @@
+/home/federico/dev_ws/install/dolly/share/ament_index/resource_index/package_run_dependencies/dolly
+/home/federico/dev_ws/install/dolly/share/ament_index/resource_index/parent_prefix_path/dolly
+/home/federico/dev_ws/install/dolly/share/dolly/environment/ament_prefix_path.sh
+/home/federico/dev_ws/install/dolly/share/dolly/environment/ament_prefix_path.dsv
+/home/federico/dev_ws/install/dolly/share/dolly/environment/path.sh
+/home/federico/dev_ws/install/dolly/share/dolly/environment/path.dsv
+/home/federico/dev_ws/install/dolly/share/dolly/local_setup.bash
+/home/federico/dev_ws/install/dolly/share/dolly/local_setup.sh
+/home/federico/dev_ws/install/dolly/share/dolly/local_setup.zsh
+/home/federico/dev_ws/install/dolly/share/dolly/local_setup.dsv
+/home/federico/dev_ws/install/dolly/share/dolly/package.dsv
+/home/federico/dev_ws/install/dolly/share/ament_index/resource_index/packages/dolly
+/home/federico/dev_ws/install/dolly/share/dolly/cmake/dollyConfig.cmake
+/home/federico/dev_ws/install/dolly/share/dolly/cmake/dollyConfig-version.cmake
+/home/federico/dev_ws/install/dolly/share/dolly/package.xml

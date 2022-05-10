@@ -1,0 +1,34 @@
+[3.061s] Invoking command in '/home/federico/dev_ws/build/python_parameters': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/python_parameters --uninstall --editable --build-directory /home/federico/dev_ws/build/python_parameters/build
+[3.805s] running develop
+[3.805s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.806s]   warnings.warn(
+[3.933s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.933s]   warnings.warn(
+[4.112s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[4.112s]   warnings.warn(
+[4.112s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[4.112s]   warnings.warn(
+[4.261s] Invoked command in '/home/federico/dev_ws/build/python_parameters' returned '0': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/python_parameters --uninstall --editable --build-directory /home/federico/dev_ws/build/python_parameters/build
+[4.264s] Invoking command in '/home/federico/dev_ws/src/python_parameters': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/federico/dev_ws/build/python_parameters/build install --prefix /home/federico/dev_ws/install/python_parameters --record /home/federico/dev_ws/build/python_parameters/install.log --single-version-externally-managed
+[5.023s] running egg_info
+[5.083s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[5.127s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[5.261s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[5.362s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[5.406s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[5.476s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[5.477s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[5.477s] running build
+[5.477s] running build_py
+[5.477s] running install
+[5.477s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.477s]   warnings.warn(
+[5.482s] running install_lib
+[5.539s] running install_data
+[5.552s] running install_egg_info
+[5.609s] removing '/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info' (and everything under it)
+[5.610s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info
+[5.611s] running install_scripts
+[5.734s] Installing param_talker script to /home/federico/dev_ws/install/python_parameters/lib/python_parameters
+[5.735s] writing list of installed files to '/home/federico/dev_ws/build/python_parameters/install.log'
+[5.776s] Invoked command in '/home/federico/dev_ws/src/python_parameters' returned '0': PYTHONPATH=/home/federico/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/federico/dev_ws/build/python_parameters/build install --prefix /home/federico/dev_ws/install/python_parameters --record /home/federico/dev_ws/build/python_parameters/install.log --single-version-externally-managed

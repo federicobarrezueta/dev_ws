@@ -1,0 +1,353 @@
+[0.000000] (-) TimerEvent: {}
+[0.000614] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000667] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001038] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001106] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001214] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001278] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.015943] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.016847] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/federico/dev_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/federico/dev_ws/install/tutorial_interfaces'], 'cwd': '/home/federico/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'federico'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1871'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/federico/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/federico'), ('OLDPWD', '/home/federico'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1682'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3517'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/federico/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'federico'), ('JOURNAL_STREAM', '8:46529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'federico'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/federico/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/federico-Predator-PH315-51:@/tmp/.ICE-unix/1908,unix/federico-Predator-PH315-51:/tmp/.ICE-unix/1908'), ('INVOCATION_ID', '0ac64a25a1894b798b7f7e366efdd0d9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:de0a1ca1-36b4-4787-8c73-e2e1559a1e14'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/federico/dev_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic')]), 'shell': False}
+[0.099601] (-) TimerEvent: {}
+[0.200364] (-) TimerEvent: {}
+[0.301092] (-) TimerEvent: {}
+[0.401445] (-) TimerEvent: {}
+[0.501758] (-) TimerEvent: {}
+[0.536196] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.601907] (-) TimerEvent: {}
+[0.702255] (-) TimerEvent: {}
+[0.802596] (-) TimerEvent: {}
+[0.836330] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.860156] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.902696] (-) TimerEvent: {}
+[0.975376] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.979221] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.002838] (-) TimerEvent: {}
+[1.090361] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.102948] (-) TimerEvent: {}
+[1.117995] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.119062] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.125481] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.203084] (-) TimerEvent: {}
+[1.236690] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.238295] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.303219] (-) TimerEvent: {}
+[1.362145] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.380842] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.381596] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.392115] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.403336] (-) TimerEvent: {}
+[1.448517] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.448902] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.503474] (-) TimerEvent: {}
+[1.603815] (-) TimerEvent: {}
+[1.624077] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.637671] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.673080] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.703954] (-) TimerEvent: {}
+[1.804383] (-) TimerEvent: {}
+[1.904943] (-) TimerEvent: {}
+[1.916773] (tutorial_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.962148] (tutorial_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[2.005072] (-) TimerEvent: {}
+[2.105362] (-) TimerEvent: {}
+[2.121476] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.205488] (-) TimerEvent: {}
+[2.211275] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.305618] (-) TimerEvent: {}
+[2.405899] (-) TimerEvent: {}
+[2.416148] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[2.506038] (-) TimerEvent: {}
+[2.606361] (-) TimerEvent: {}
+[2.611706] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.626759] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.664230] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.683011] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[2.706570] (-) TimerEvent: {}
+[2.807096] (-) TimerEvent: {}
+[2.891829] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.892234] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.892372] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.892487] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.907228] (-) TimerEvent: {}
+[2.926007] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.007357] (-) TimerEvent: {}
+[3.107674] (-) TimerEvent: {}
+[3.208006] (-) TimerEvent: {}
+[3.308313] (-) TimerEvent: {}
+[3.358916] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[3.408473] (-) TimerEvent: {}
+[3.455615] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.464696] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.468978] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.478331] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.508606] (-) TimerEvent: {}
+[3.532960] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.537273] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/federico/dev_ws/build/tutorial_interfaces\n'}
+[3.544445] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[3.545446] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[3.548174] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/federico/dev_ws/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/federico/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'federico'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1871'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/federico/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/federico'), ('OLDPWD', '/home/federico'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1682'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3517'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/federico/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'federico'), ('JOURNAL_STREAM', '8:46529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'federico'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/federico/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/federico-Predator-PH315-51:@/tmp/.ICE-unix/1908,unix/federico-Predator-PH315-51:/tmp/.ICE-unix/1908'), ('INVOCATION_ID', '0ac64a25a1894b798b7f7e366efdd0d9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:de0a1ca1-36b4-4787-8c73-e2e1559a1e14'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/federico/dev_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic')]), 'shell': False}
+[3.605974] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.606355] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__cpp\x1b[0m\n'}
+[3.608734] (-) TimerEvent: {}
+[3.621675] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.708859] (-) TimerEvent: {}
+[3.809258] (-) TimerEvent: {}
+[3.909589] (-) TimerEvent: {}
+[4.009914] (-) TimerEvent: {}
+[4.077284] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[4.099560] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[4.100081] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[4.110066] (-) TimerEvent: {}
+[4.118575] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] Built target tutorial_interfaces__cpp\n'}
+[4.133977] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.134277] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.140717] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.199891] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.210179] (-) TimerEvent: {}
+[4.254062] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[4.271116] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.271984] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.310287] (-) TimerEvent: {}
+[4.410654] (-) TimerEvent: {}
+[4.491993] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.510311] (tutorial_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.510676] (-) TimerEvent: {}
+[4.510877] (tutorial_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.590163] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.610804] (-) TimerEvent: {}
+[4.620275] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.622074] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[4.648291] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.676799] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[4.677967] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.697342] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.710925] (-) TimerEvent: {}
+[4.723572] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[4.729077] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.811062] (-) TimerEvent: {}
+[4.849276] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[4.864492] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.884647] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.900038] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.911191] (-) TimerEvent: {}
+[4.961940] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.984525] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.011313] (-) TimerEvent: {}
+[5.080083] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[5.111431] (-) TimerEvent: {}
+[5.118307] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.179553] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[5.211550] (-) TimerEvent: {}
+[5.311877] (-) TimerEvent: {}
+[5.376228] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.412050] (-) TimerEvent: {}
+[5.443411] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.512187] (-) TimerEvent: {}
+[5.516866] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.612329] (-) TimerEvent: {}
+[5.712686] (-) TimerEvent: {}
+[5.715952] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.730313] (tutorial_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.812825] (-) TimerEvent: {}
+[5.913168] (-) TimerEvent: {}
+[6.013502] (-) TimerEvent: {}
+[6.113836] (-) TimerEvent: {}
+[6.118118] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.142486] (tutorial_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[6.142898] (tutorial_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[6.213979] (-) TimerEvent: {}
+[6.314312] (-) TimerEvent: {}
+[6.414669] (-) TimerEvent: {}
+[6.515066] (-) TimerEvent: {}
+[6.615427] (-) TimerEvent: {}
+[6.671688] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.715569] (-) TimerEvent: {}
+[6.794469] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.808377] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces\x1b[0m\n'}
+[6.815705] (-) TimerEvent: {}
+[6.822767] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces\n'}
+[6.836973] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__py\x1b[0m\n'}
+[6.852310] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.915839] (-) TimerEvent: {}
+[7.016156] (-) TimerEvent: {}
+[7.116489] (-) TimerEvent: {}
+[7.216809] (-) TimerEvent: {}
+[7.317156] (-) TimerEvent: {}
+[7.417448] (-) TimerEvent: {}
+[7.517805] (-) TimerEvent: {}
+[7.613817] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__py\n'}
+[7.617937] (-) TimerEvent: {}
+[7.628146] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__python\x1b[0m\n'}
+[7.657559] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[7.657896] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[7.718082] (-) TimerEvent: {}
+[7.795583] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so\x1b[0m\n'}
+[7.818203] (-) TimerEvent: {}
+[7.850510] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] Built target tutorial_interfaces__python\n'}
+[7.864983] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.865235] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.865357] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.890393] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.891668] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.893526] (tutorial_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.918339] (-) TimerEvent: {}
+[8.016634] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.016964] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.017602] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.018441] (-) TimerEvent: {}
+[8.074612] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.074989] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.111704] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.118613] (-) TimerEvent: {}
+[8.127770] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[8.211008] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[8.218853] (-) TimerEvent: {}
+[8.226631] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/federico/dev_ws/build/tutorial_interfaces'], 'cwd': '/home/federico/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'federico'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1871'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/federico/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/federico'), ('OLDPWD', '/home/federico'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1682'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3517'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/federico/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'federico'), ('JOURNAL_STREAM', '8:46529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'federico'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/federico/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/federico-Predator-PH315-51:@/tmp/.ICE-unix/1908,unix/federico-Predator-PH315-51:/tmp/.ICE-unix/1908'), ('INVOCATION_ID', '0ac64a25a1894b798b7f7e366efdd0d9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:de0a1ca1-36b4-4787-8c73-e2e1559a1e14'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/federico/dev_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/federico/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/federico/dev_ws/install/turtlesim:/home/federico/dev_ws/install/py_srvcli:/home/federico/dev_ws/install/py_pubsub:/home/federico/dev_ws/install/my_package:/opt/ros/galactic')]), 'shell': False}
+[8.241429] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.241896] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[8.242218] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[8.242473] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[8.242769] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h\n'}
+[8.243034] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.243291] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[8.243528] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[8.243761] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[8.244011] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[8.244270] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[8.244552] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[8.244778] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h\n'}
+[8.244985] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[8.245224] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[8.245433] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[8.245681] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[8.245885] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[8.246138] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[8.246361] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[8.246585] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[8.246830] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.247145] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[8.247445] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[8.247695] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[8.247916] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[8.248156] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.248386] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[8.248642] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[8.248866] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[8.249103] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.249321] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.249620] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[8.249851] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[8.250104] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.250348] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[8.250542] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.250767] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[8.250960] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[8.251164] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[8.251382] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.251581] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[8.251829] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.252082] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.252302] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[8.252583] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[8.252824] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.253067] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[8.253261] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[8.253482] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[8.253681] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[8.253874] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[8.254093] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[8.254307] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[8.254577] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.254808] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.255010] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[8.255354] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.255594] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[8.255854] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[8.256126] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp\n'}
+[8.256354] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[8.256649] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[8.256921] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[8.257220] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[8.257464] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[8.257721] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[8.258004] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[8.258319] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[8.258581] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[8.258794] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[8.258995] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[8.259229] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[8.259415] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[8.259632] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.259842] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[8.260084] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[8.260256] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[8.260445] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.260703] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[8.260901] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.261124] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.261352] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.261587] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.261792] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[8.262025] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[8.262284] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py\n'}
+[8.308925] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[8.314704] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg\n'}
+[8.315100] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[8.315394] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[8.315645] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[8.315933] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv\n'}
+[8.316165] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[8.316420] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[8.316591] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[8.316829] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.317797] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.318276] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.318873] (-) TimerEvent: {}
+[8.319239] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.319687] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.320572] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.320935] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so\n'}
+[8.321520] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/federico/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so" to ""\n'}
+[8.321889] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[8.322164] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[8.322433] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[8.322685] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[8.322973] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[8.323291] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[8.327367] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[8.327716] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[8.328027] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[8.328308] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.328615] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[8.328895] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[8.329185] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[8.329519] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[8.329809] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[8.330059] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[8.330288] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[8.330600] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[8.331012] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.331369] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.331708] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.331987] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.332421] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.332729] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.333081] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.333474] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.333809] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.334126] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.334411] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.334729] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.335012] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.335302] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.335585] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.335855] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.336150] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.336447] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.336733] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[8.337022] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[8.337314] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/federico/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[8.340996] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[8.419095] (-) TimerEvent: {}
+[8.464362] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[8.465405] (-) EventReactorShutdown: {}

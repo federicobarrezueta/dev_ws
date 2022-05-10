@@ -1,0 +1,35 @@
+[2.799s] Invoking command in '/home/federico/dev_ws/src/py_pubsub': PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/federico/dev_ws/build/py_pubsub/build install --prefix /home/federico/dev_ws/install/py_pubsub --record /home/federico/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[3.202s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.202s]   warnings.warn(
+[3.203s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.203s]   warnings.warn(
+[4.161s] running egg_info
+[4.267s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[4.350s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[4.591s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[4.754s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[4.845s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[4.975s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.977s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.977s] running build
+[4.978s] running build_py
+[4.978s] copying py_pubsub/publisher_member_function.py -> /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[4.978s] copying py_pubsub/subscriber_member_function.py -> /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[4.978s] running install
+[4.978s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.978s]   warnings.warn(
+[4.986s] running install_lib
+[5.092s] copying /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[5.092s] copying /home/federico/dev_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[5.093s] byte-compiling /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[5.094s] byte-compiling /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[5.094s] running install_data
+[5.115s] copying package.xml -> /home/federico/dev_ws/install/py_pubsub/share/py_pubsub
+[5.115s] running install_egg_info
+[5.218s] removing '/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[5.219s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[5.220s] running install_scripts
+[5.410s] Installing listener script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub
+[5.410s] Installing talker script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub
+[5.411s] writing list of installed files to '/home/federico/dev_ws/build/py_pubsub/install.log'
+[5.452s] Invoked command in '/home/federico/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/federico/dev_ws/build/py_pubsub/build install --prefix /home/federico/dev_ws/install/py_pubsub --record /home/federico/dev_ws/build/py_pubsub/install.log --single-version-externally-managed

@@ -1,0 +1,30 @@
+[4.076s] Invoking command in '/home/federico/dev_ws/build/py_pubsub': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/py_pubsub --editable --build-directory /home/federico/dev_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/federico/dev_ws/install/py_pubsub
+[4.374s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.375s]   warnings.warn(
+[4.375s] /home/federico/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[4.375s]   warnings.warn(
+[4.947s] running develop
+[4.948s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.948s]   warnings.warn(
+[5.098s] /home/federico/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.098s]   warnings.warn(
+[5.310s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[5.310s]   warnings.warn(
+[5.310s] /home/federico/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[5.310s]   warnings.warn(
+[5.422s] running egg_info
+[5.488s] writing py_pubsub.egg-info/PKG-INFO
+[5.540s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[5.702s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[5.811s] writing requirements to py_pubsub.egg-info/requires.txt
+[5.864s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[5.955s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[5.956s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[6.065s] running build_ext
+[6.065s] Creating /home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)
+[6.067s] Installing listener script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub
+[6.067s] Installing talker script to /home/federico/dev_ws/install/py_pubsub/lib/py_pubsub
+[6.067s] 
+[6.067s] Installed /home/federico/dev_ws/build/py_pubsub
+[6.067s] running install_data
+[6.142s] Invoked command in '/home/federico/dev_ws/build/py_pubsub' returned '0': AMENT_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/federico/dev_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/federico/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/federico/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/federico/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/federico/dev_ws/install/py_pubsub --editable --build-directory /home/federico/dev_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/federico/dev_ws/install/py_pubsub
